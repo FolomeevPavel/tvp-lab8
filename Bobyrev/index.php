@@ -21,6 +21,7 @@
 			use Facebook\Page;
 			
 			$me = new User($token);
+
 			$groupInfo = new Group($token);	
 			$pagesIngo = new Page($token);
 		?>
